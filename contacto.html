@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sitio Web - Webet</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="description" content="Mi Portafolio personal Frank Alania, servicios de diseño y desarrollo web freelance"/>
+	<meta name="keywords" content="portafolio personal, diseño web, desarrollo web"/>
+	<meta name="author" content="Frank Alania" />
+	<meta name="copyright" content="Frank Alania" />
+	<meta name="robots" content="index"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+	<header>
+		
+		<div class="navigation-wrap bg-light start-header start-style">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-md navbar-light">
+
+							<a class="navbar-brand" href="#" target="_blank"><img src="https://boldlab.qodeinteractive.com/wp-content/uploads/2019/09/logo-light.png" alt=""></a>	
+
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ml-auto py-4 py-md-0">
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+										<a class="nav-link" href="index.html">Inicio</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+										<a class="nav-link" href="nosotros.html">Nosotros</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link" href="portafolio.html">Portafolio</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="servicios.html" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="servicios.html">Servicios</a>
+											<a class="dropdown-item" href="servicios.html">Another action</a>
+											<a class="dropdown-item" href="servicios.html">Something else here</a>
+											<a class="dropdown-item" href="#">Another action</a>
+										</div>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link" href="blog.html">Blog</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+										<a class="nav-link" href="contacto.html">Contacto</a>
+									</li>
+								</ul>
+							</div>
+
+						</nav>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+	<section>
+		<div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.6166628704817!2d-77.0258796841976!3d-12.116716054843247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c810e56076d9%3A0xc725e24016993b56!2sBusiness%20Target%20Peru%20SAC!5e0!3m2!1ses!2spe!4v1605639801192!5m2!1ses!2spe" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+	</section>
+	
+	
+	<section class="container pt-5 pb-5 contacto">
+		<h1 class="subtitulo">Formulario de contacto</h1>
+		
+		<div>
+		<form action="" method="POST" id="contactform">
+			<div class="nombres">
+				<input type="text" id="name" name="name" placeholder="Nombres"> 
+				<input type="text" id="lname" name="lname" placeholder="Apellidos">
+			</div>
+			<div class="correo">
+				<input type="email" id="email" name="email" placeholder="example@gmail.com">
+			</div>
+			
+			
+			<select id="estado" name="estadocivil" form="contactform">
+				<option value="soltero">Soltero/a</option>
+				<option value="casado">Casado/a</option>
+				<option value="divorciado">Divorciado/a</option>
+				<option value="viudo">Viudo/a</option>
+			</select>
+			<label for="newsletter"> ¿Desea recibir Newsletter? </label> <input type="checkbox" id="newsletter" name="newsletter" value="">
+			<textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Comentarios"></textarea>
+			<input type="reset" value="Limpiar formulario">
+			<input type="submit" value="Enviar formulario">
+		</form> 
+		</div>
+		
+	</section>
+	<section class="newsletter">
+			<div class="container pt-5 pb-5">
+				<h3 class="subtitulo">Newsletter</h3>
+				<form>
+					<input type="email" name="" placeholder="correo electrónico">
+					<input type="submit" name="" value="suscribirme">
+				</form>
+			</div>
+	</section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="logo-footer">
+				<img src="https://boldlab.qodeinteractive.com/wp-content/uploads/2019/09/logo-light.png">
+			</div>
+			<div class="socials">
+				<a href="#" class="fb-icon"></a>
+				<a href="#" class="instagram-icon"></a>
+				<a href="#" class="linkedin-icon"></a>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>

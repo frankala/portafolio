@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+}
+.titulo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  span {
+    background-color: white;
+  }
+}
+.subtitulo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+a {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: gray;
+  line-height: 1.5;
+}
+label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-textblack {
+  background: black;
+  width: fit-content;
+  margin: 0 auto;
+}

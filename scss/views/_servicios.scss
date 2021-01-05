@@ -1,0 +1,40 @@
+.page-title.servicios {
+  background-image: url("../images/servicios.jpg");
+}
+
+.tablaServicios {
+  table {
+    margin-top: 2rem;
+  }
+  background: #eee;
+}
+table {
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0 2rem;
+  ol {
+    color: #03b9a8;
+  }
+}
+th {
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0 2rem;
+}
+td {
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0 2rem;
+}
+.titulo-tabla {
+  th {
+    font-weight: bold;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 1rem 2rem;
+    background: #eee;
+  }
+}

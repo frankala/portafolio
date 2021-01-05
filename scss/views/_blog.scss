@@ -1,0 +1,38 @@
+
+.page-title.blog {
+  background-image: url("../images/blog.jpg");
+}
+.post {
+  text-align: center;
+  padding: 3rem;
+  .content {
+    text-align: left;
+    .img-wrapper {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      transition: 0.3s;
+      &:hover {
+          transform: scale(1.1);
+      }
+    }
+    span {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+    }
+  }
+}
+
+.breadcrumb {
+  padding-top: 2rem;
+}
+.content {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}

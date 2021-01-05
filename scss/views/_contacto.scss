@@ -1,0 +1,65 @@
+.contacto {
+  background-color: white;
+  color: black;
+  input[type="text"] {
+    background-color: #eee;
+    color: black;
+    border: 0;
+    padding: 0.6rem 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  input[type="email"] {
+    background-color: #eee;
+    color: black;
+    border: 0;
+    padding: 0.6rem 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  textarea {
+    background-color: #eee;
+    color: black;
+    border: 0;
+    padding: 0.6rem 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  form {
+    width: 455px;
+  }
+  input[type="reset"] {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 2px solid transparent;
+    width: auto;
+    font-size: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0.5rem 1.1rem;
+  }
+  input[type="submit"] {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 2px solid transparent;
+    width: auto;
+    font-size: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0.5rem 1.1rem;
+  }
+  select {
+    border: #eeeeee;
+    background: #eeeeee;
+    padding: 0.5rem 1.2rem;
+    color: gray;
+    width: 448px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
